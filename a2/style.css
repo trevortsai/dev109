@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+  font-family: 'FuturaRennerRegular';
+  font-weight: normal;
+  font-style: normal;
+  color: #ee3e80;
+}
+body {
+  background-image:url("https://trevortsai.github.io/dev109/a2/20240312_221518000_iOS.jpg")
+}
+.row{
+ position:relative;
+ margin-left:10%;
+ margin-right:10%;
+}
+.white{
+ border: 1px solid black;
+ width: 11%;
+ height: 60px;
+ background-color:white;
+ float:left;
+}
+ 
+.black{
+ border: 1px solid black;
+ width: 11%;
+ height: 60px;
+ background-color:#787878;
+ float:left;
+}
+.container {
+ margin-top:20%;
+ margin-left:10%;
+ margin-right:10%;
+ margin-bottom:5%;
+}
+#footer {
+ border:solid 0px;
+ padding: 10px;
+ margin:10px;
+}
+img {
+ margin-left: 5px;
+ margin-top:10px;
+ }
