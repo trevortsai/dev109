@@ -1,0 +1,58 @@
+*{
+  font-family: Arial, Verdana, sans-serif;
+  color: #665544;
+  text-align: center;
+}
+body {
+	width: 90%;
+	margin: 0 auto;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Beautiful-Full-HD-Images.jpg");
+}
+#content {
+	overflow: auto;
+}
+#nav, #feature, #footer {
+	margin: 1%;
+}
+.column1, .column2, .column3 {
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+}
+.column3 {
+	margin-right: 0%;
+  background-color: yellow;
+}
+.column2 {
+  background-color: red;
+}
+.column1 {
+  background-color:green;
+}
+li {
+	display: inline;
+	padding: 0.5em;}
+#nav, #footer {
+	padding: 0.5em 0;}
+#feature, .article {
+	height: 10em;
+	margin-bottom: 1em;
+}
+#feature{
+    background-color: blue;
+    background-image: url("https://th.bing.com/th/id/OIP.PYz82rFan3lg987aQoeWKAHaFj?w=248&h=185&c=7&r=0&o=5&pid=1.7");
+    background-size:contain;
+    background-position: right;
+    background-repeat:no-repeat;}
+}
+#footer {
+  	background-color: #efefef;
+}
+#nav{
+  	background-color: purple;
+}
+#header {
+   font-family: 'CodeNewRomanRegular';
+   font-weight: normal;
+   font-style: normal;
+}
