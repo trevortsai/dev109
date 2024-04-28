@@ -52,7 +52,7 @@ li {
   	background-color: purple;
 }
 #header {
-   font-family: 'CodeNewRomanRegular';
+   font-family: 'CodeNewRomanRegular', !important;
    font-weight: normal;
    font-style: normal;
 }
