@@ -11,3 +11,6 @@ if (operator === 'multiplication') {
     i++;
   }
 }
+// Write the message into the page
+var el = document.getElementById('blackboard');
+el.innerHTML = msg;
