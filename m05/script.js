@@ -7,7 +7,7 @@ var msg = '';              // Message
 if (operator === 'multiplication') {
   // Do addition
   while (i < 11) {
-    msg += i + ' * ' + table + ' = ' + (i + table) + '<br />';
+    msg += i + ' * ' + table + ' = ' + (i * table) + '<br />';
     i++;
   }
 }
