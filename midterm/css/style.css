@@ -21,13 +21,13 @@ body {
 }
 .column3 {
 	margin-right: 0%;
-  background-color: yellow;
+  background-color: azure;
 }
 .column2 {
-  background-color: red;
+  background-color: azure;
 }
 .column1 {
-  background-color:green;
+  background-color:azure;
 }
 li {
 	display: inline;
@@ -39,17 +39,17 @@ li {
 	margin-bottom: 1em;
 }
 #feature{
-    background-color: blue;
+    background-color: azure;
     background-image: url("https://th.bing.com/th/id/OIP.PYz82rFan3lg987aQoeWKAHaFj?w=248&h=185&c=7&r=0&o=5&pid=1.7");
     background-size:contain;
     background-position: right;
     background-repeat:no-repeat;
 }
 #footer {
-  	background-color: #efefef;
+  	background-color: azure;
 }
 #nav{
-  	background-color: purple;
+  	background-color: azure;
 }
 h1 {
    font-family: 'JelleeBold' !important;
