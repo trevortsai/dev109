@@ -2,4 +2,8 @@
   color: red;
   font-weight: bold;
 }
-
+#myform {
+  border-style: solid;
+  border-width: 3px;
+  background-color: lightgray;
+}
