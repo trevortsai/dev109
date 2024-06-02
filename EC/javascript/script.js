@@ -103,7 +103,7 @@ function check() {
   document.getElementById("listMatches").style.textDecoration = "none";
   document.getElementById("listKey").style.textDecoration = "none";
   document.getElementById("listCandle").style.textDecoration = "none";
-  var count = 0; var candle = 0; var key = 0; var match = 0; var bell = 0; var clock = 0;
+  count = 0; candle = 0; key = 0; match = 0; bell = 0; clock = 0;
   this.parentNode.removeChild(this);
 }, false);
   }
