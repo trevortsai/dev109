@@ -1,1 +1,42 @@
+body {
+  background-image: url("https://th.bing.com/th/id/OIP.b9Utj07QmZlplQvjHJyXdwHaFj?rs=1&pid=ImgDetMain");
+  font-family: 'AvaraBold';
+  font-weight: normal;
+  font-style: normal;
+}
+#items {
+  background-color: white;
+  border: 5px solid;
+  border-image: url("https://th.bing.com/th/id/OIP.4PYclVj5jHq_D21EQ2fIAAHaE8?rs=1&pid=ImgDetMain") 30 round;
+}
+.image{
+  text-align:center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#reset {
+  text-align:center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  text-align:center;
+  background-color: white;
+  border: 5px solid;
+  border-image: url("https://th.bing.com/th/id/OIP.4PYclVj5jHq_D21EQ2fIAAHaE8?rs=1&pid=ImgDetMain") 30 round;
 
+}
+h2 {
+  text-align:center;
+ background-color: white;
+  border: 5px solid;
+  border-image: url("https://th.bing.com/th/id/OIP.4PYclVj5jHq_D21EQ2fIAAHaE8?rs=1&pid=ImgDetMain") 30 round;
+
+}
+p {
+   font-family: 'AvaraBold';
+   font-weight: normal;
+   font-style: normal;
+}
