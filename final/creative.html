@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Creative</title>
+		<title>Game</title>
 		<meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/jellee-typeface" type="text/css">
@@ -9,20 +9,30 @@
 	</head>
 	<body>
 		<div id="header">
-			<h1>Logo</h1>
+			<h1>Game</h1>
 			<div id="nav">
 				<ul>
+					<li><a href="index.html">Home</a></li>
+
 					<li><a href="about.html">About</a></li>
 					<li><a href="artifacts.html">Artifacts</a></li>
 					<li><a href="contact.html">Contact</a></li>
 					<li><a href="courses.html">Courses</a></li>
-					<li><a href="creative.html">Creative</a></li>
-					<li><a href="index.html">Home</a></li>
+					<li><a href="creative.html">Game</a></li>
 					<li><a href="modules.html">Modules</a></li>
 					<li><a href="validated.html">Validated</a></li>
 				</ul>
 			</div>
 		</div>
-	</body>
-</html>
+      <div class="content">
+        <audio id="music" src="/sound/music.mp3" autoplay></audio>
+<button onclick="music()" id="musicButton">Pause audio</button>
 
+<div style="position:relative;height:0;padding-bottom:117.6%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://arcade.makecode.com/---run?id=_5MqevX2JTCoz" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+        <h2>Directions</h2>
+        <h3>Buy and bring the KFC home so you can eat it!<br><br>Don't let your KFC score in the top right corner drop below zero.<br><br>Use arrow keys or WASD to move.<br>When you're in a fight, press z or spacebar to punch.</h3>
+      </div>
+        <script src="javascript/Game.js"></script>
+
+  </body>
+</html>
