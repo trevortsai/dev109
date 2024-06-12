@@ -13,7 +13,7 @@ var alts = new Array("Artifact 1",
                     "Artifact 4",
                     "Artifact 5")
 var descriptions = new Array("Artifact 1 - HTML page of an arbitrary resume",
-                            "Artifact 2 - Using <div> tags to create a chessboard",
+                            "Artifact 2 - Using div tags to create a chessboard",
                             "Artifact 3 - Creating a customizable rhombus using java",
                             "Artifact 4 - A form that validates entries using java",
                             "Artifact 5 - A slideshow of pictures that can auto-play")
