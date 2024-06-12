@@ -1,14 +1,14 @@
+
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Home</title>
-		<meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/jellee-typeface" type="text/css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
-	<body>
-		<div id="header">
+    <head>
+        <meta name="description" content="Artifact 04 - Contact Us">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Contact</title>
+    </head>
+    <body>
+      <div id="header">
 			<h1>Contact</h1>
 			<div id="nav">
 				<ul>
@@ -24,27 +24,34 @@
 			</div>
 		</div>
       <div class="content">
-      <form id="myform" action="ty.html" onsubmit="return isValid();">
+        <form id="myform" action="ty.html" onsubmit="return isValid();">
             <p>
                 <label for='FirstName'>Name:</label>
                 <input type="text" id="FirstName" name="FirstName">
             </p>
             <div class="warning" id="fname"></div>
-        <p>
-           <label for='Email'>Email:</label>
-           <input type="text" id="Email" name="Email">
-        </p>
-        <div class="warning" id="mail"></div>
-        <p>
-          <label for='Comment'>Comment:</label><br>
-          <textarea name="comment" id="comment" rows="3" cols="30"></textarea>
-        </p>
-          <p>
-          <input type="submit" name="submit" value="submit">
-        </p>
-        <div class="warning" id="submiterror"></div>
+          
+            <p>
+                <label for='Email'>Email:</label>
+                <input type="text" id="Email" name="Email">
+            </p>
+            <div class="warning" id="mail"></div>
+
+            <p>
+                <label for='Comments'>Comments:</label>
+              <textarea type="text" id="Address" name="Comments"></textarea>
+            </p>
+            <div class="warning" id="address"></div>
+
+            <div class="warning" id="zipcode"></div>
+            <p>
+                <input type="submit" id="submit" name="submit" value="Submit">
+            </p>
+        
+            <div class="warning" id="submiterror"></div>        
+        </form>
+
+        <script src="js/Contact.js"></script>
       </div>
-		
-  <script src="javascript/Contact.js"></script>
-	</body>
+    </body>
 </html>
