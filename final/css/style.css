@@ -19,7 +19,7 @@ body {
 	float: left;
     height: 250px;
 	margin: 1%;
-    background-color: #ECFFDD !mportant;
+    background-color: #ECFFDD !important;
 }
 .column3 {
 	margin-right: 0%;
@@ -72,4 +72,7 @@ h3 {
    font-family: 'JelleeBold' !important;
    font-weight: normal;
    font-style: normal;
+}
+.warning {
+  color: red !important;
 }
