@@ -1,8 +1,7 @@
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Contact</title>
+		<title>Home</title>
 		<meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/jellee-typeface" type="text/css">
@@ -10,33 +9,40 @@
 	</head>
 	<body>
 		<div id="header">
-			<h1>Logo</h1>
+			<h1>Home</h1>
 			<div id="nav">
 				<ul>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="artifacts.html">Artifacts</a></li>
 					<li><a href="contact.html">Contact</a></li>
 					<li><a href="courses.html">Courses</a></li>
-					<li><a href="creative.html">Creative</a></li>
-					<li><a href="index.html">Home</a></li>
+					<li><a href="creative.html">Game</a></li>
 					<li><a href="modules.html">Modules</a></li>
 					<li><a href="validated.html">Validated</a></li>
 				</ul>
 			</div>
 		</div>
-      <form action="https://trevortsai.github.io/dev109/midterm/thankyou.html.html" method="get" name="myContact">
-        <p>Name:
-         <input type="text" name="name" size="15" maxlength="50">
-        </p>
-        <p>Email:
-        <input type="text" name="email" size="15" maxlength="80">
-        </p>
-        <p>Comment:
-          <textarea name="comment" rows="3" cols="30">Enter text here</textarea>
-        </p>
+      <div class="content">
+      <form id="myform" action="ty.html" onsubmit="return isValid();">
+            <p>
+                <label for='FirstName'>Name:</label>
+                <input type="text" id="FirstName" name="FirstName">
+            </p>
+            <div class="warning" id="fname"></div>
         <p>
+           <label for='Email'>Email:</label>
+           <input type="text" id="Email" name="Email">
+        </p>
+        <div class="warning" id="mail"></div>
+        <p>
+          <label for='Comment'>Comment:</label><br>
+          <textarea name="comment" id="comment" rows="3" cols="30"></textarea>
+        </p>
+          <p>
           <input type="submit" name="submit" value="submit">
         </p>
-      </form>
+        <div class="warning" id="submiterror"></div>
+      </div>
 	</body>
 </html>
