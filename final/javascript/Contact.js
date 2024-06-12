@@ -37,7 +37,7 @@ function checkemail() {
   var dotpos = userEmail.lastIndexOf(".");
   var errorMessages = ""
   if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=userEmail.length) {
-    errorMessages = "<p>Invalid email</p>";
+    errorMessages = "<h3 class="warning">Invalid email</h3>";
   }else{
     validEmail = true; //Or assign the value to a variable. For example validEmail = true
 }
@@ -56,10 +56,10 @@ function firstName(){
 
     //3) Do validation
     if (firstname==="null" || firstname==="" || firstname.length > 20 ) {
-        errorMessages += "<p>Name is required and cannot be greater than 20 characters</p>";
+        errorMessages += "<h3 class="warning">Name is required and cannot be greater than 20 characters</h3>";
         console.log("Name invalid — length")
         } else if (firstname.match("^[a-zA-Z ,.'-]+$")===null) {
-            errorMessages += "<p>Invalid caracter in first name (accepts only A-Z, a-z, and ,.'-)</p>";
+            errorMessages += "<h3 class="warning">Invalid caracter in first name (accepts only A-Z, a-z, and ,.'-)</h3>";
             console.log("Name invalid — bad characters")
         } else {
                 validFirstname = true;
@@ -186,7 +186,7 @@ function address() {
   var validAddress = false;
   var errorMessages = "";
   if (userAddress === "" || userAddress === null) {
-    errorMessages = "<p>Invalid address - enter comment</p>";
+    errorMessages = "<h3 class="warning">Invalid address - enter comment</h3>";
   } else {
     validAddress = true;
   }
