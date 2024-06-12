@@ -9,7 +9,7 @@ function isValid() {
     
     return true;
     }else {
-        document.getElementById("submiterror").innerHTML = "<p><strong>Error Submitting — See Above</strong></p>";
+        document.getElementById("submiterror").innerHTML = "<h3 class="warning"><strong>Error Submitting — See Above</strong></h3>";
         event.preventDefault();
         return false;
     }
