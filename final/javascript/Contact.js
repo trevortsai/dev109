@@ -1,15 +1,13 @@
 function isValid() {
-  var vFirst = firstName();
-  var vEmail = checkemail();
-  var vComment = address();
-
+    var vFirst = firstName();
+    var vEmail = checkemail();
+    var vComment = address();
 
     if (vFirst && vEmail && vComment) {
-    
-    return true;
-    }else {
+        return true;
+    } else {
         document.getElementById("submiterror").innerHTML = "<p><strong>Error Submitting — See Above</strong></p>";
-        event.preventDefault();
+        event.preventDefault(); // Prevent form submission
         return false;
     }
 }
