@@ -9,7 +9,7 @@ function isValid() {
     
     return true;
     }else {
-        document.getElementById("submiterror").innerHTML = "<h3 class="warning"><strong>Error Submitting — See Above</strong></h3>";
+        document.getElementById("submiterror").innerHTML = "<h3 class='warning'><strong>Error Submitting — See Above</strong></h3>";
         event.preventDefault();
         return false;
     }
@@ -37,7 +37,7 @@ function checkemail() {
   var dotpos = userEmail.lastIndexOf(".");
   var errorMessages = ""
   if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=userEmail.length) {
-    errorMessages = "<h3 class="warning">Invalid email</h3>";
+    errorMessages = "<h3 class='warning'>Invalid email</h3>";
   }else{
     validEmail = true; //Or assign the value to a variable. For example validEmail = true
 }
@@ -56,10 +56,10 @@ function firstName(){
 
     //3) Do validation
     if (firstname==="null" || firstname==="" || firstname.length > 20 ) {
-        errorMessages += "<h3 class="warning">Name is required and cannot be greater than 20 characters</h3>";
+        errorMessages += "<h3 class='warning''>Name is required and cannot be greater than 20 characters</h3>";
         console.log("Name invalid — length")
         } else if (firstname.match("^[a-zA-Z ,.'-]+$")===null) {
-            errorMessages += "<h3 class="warning">Invalid caracter in first name (accepts only A-Z, a-z, and ,.'-)</h3>";
+            errorMessages += "<h3 class='warning'>Invalid caracter in first name (accepts only A-Z, a-z, and ,.'-)</h3>";
             console.log("Name invalid — bad characters")
         } else {
                 validFirstname = true;
@@ -186,7 +186,7 @@ function address() {
   var validAddress = false;
   var errorMessages = "";
   if (userAddress === "" || userAddress === null) {
-    errorMessages = "<h3 class="warning">Invalid address - enter comment</h3>";
+    errorMessages = "<h3 class='warning'>Invalid address - enter comment</h3>";
   } else {
     validAddress = true;
   }
@@ -207,6 +207,5 @@ function zipcode() {
   return validZipcode;
   
 }
-
 
 
