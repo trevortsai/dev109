@@ -20,6 +20,7 @@ body {
     height: 250px;
 	margin: 1%;
     background-color: #ECFFDD !important;
+	animation: fadeIn 1s;
 }
 .column3 {
 	margin-right: 0%;
@@ -44,7 +45,7 @@ li {
   padding: 0.5em 0;
   background-color: #CCD3FD;
   margin: 1%;
-  animation: fadeIn 2s;
+  animation: fadeIn 1s;
 }
 #feature{
     background-color: azure;
