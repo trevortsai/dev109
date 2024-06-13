@@ -44,6 +44,7 @@ li {
   padding: 0.5em 0;
   background-color: #CCD3FD;
   margin: 1%;
+  animation: fadeIn 2s;
 }
 #feature{
     background-color: azure;
@@ -75,4 +76,12 @@ h3 {
 }
 .warning {
   color: red !important;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
