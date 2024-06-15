@@ -208,7 +208,7 @@ function zipcode() {
   var userCountry = document.getElementsByName("countries")[0].value;
   var numbers = 0;
   for (var i=0; i < userZipcode.length; i++) {
-    if (!NaN(userZipcode.charAt(i))) {
+    if (!isNaN(userZipcode.charAt(i))) {
       numbers++;
     }
   }
