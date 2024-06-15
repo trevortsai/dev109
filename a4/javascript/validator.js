@@ -208,7 +208,11 @@ function zipcode() {
   var userCountry = document.getElementsByName("countries")[0].value;
     if (userCountry == "USA" && (userZipcode === "" || userZipcode === null)) {
     errorMessages = "<p>Invalid zipcode - enter zipcode</p>";
-  } else {
+    
+  } else if (userCountry == "USA" && (userZipcode.length != 6)) {
+      errorMessages = "<p>Invalid zipcode - zipcode must be 6 numbers</p>";
+    }
+    else {
     validZipcode= true;
   }
   document.getElementById("zipcode").innerHTML = errorMessages;
