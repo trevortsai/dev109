@@ -206,10 +206,16 @@ function zipcode() {
   var userZipcode = document.getElementById("Zipcode").value;
   var errorMessages = "";
   var userCountry = document.getElementsByName("countries")[0].value;
+  var numbers = 0;
+  for (int i=0; i < userZipcode.length; i++) {
+    if (!NaN(userZipcode.charAt(i))) {
+      numbers++;
+    }
+  }
     if (userCountry == "USA" && (userZipcode === "" || userZipcode === null)) {
     errorMessages = "<p>Invalid zipcode - enter zipcode</p>";
     
-  } else if (userCountry == "USA" && (userZipcode.length != 6)) {
+  } else if (userCountry == "USA" && (numbers != 6)) {
       errorMessages = "<p>Invalid zipcode - zipcode must be 6 numbers</p>";
     }
     else {
